@@ -1,5 +1,6 @@
 package cn.itcast.user.web;
 
+import cn.itcast.feign.client.UserClient;
 import cn.itcast.user.config.PatternProperties;
 import cn.itcast.user.pojo.User;
 import cn.itcast.user.service.UserService;
